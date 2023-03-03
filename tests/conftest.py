@@ -6,7 +6,7 @@ from _pytest.runner import CallInfo
 from selene.support.shared import browser
 from selene import support
 from appium import webdriver
-
+from appium.options.android import UiAutomator2Options
 import config
 from mobile_tests_lesson_13 import utils
 
